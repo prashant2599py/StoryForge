@@ -14,7 +14,7 @@ export const FullBlog  = ({ blog }: {blog : Blog}) => {
                             <div className="pt-4 text-slate-500">
                                 Posted on 23 March 2024
                             </div>
-                            <div className="pt-4">
+                            <div className="pt-4 pr-2">
                                 {blog.content}
                             </div>
                     </div>
