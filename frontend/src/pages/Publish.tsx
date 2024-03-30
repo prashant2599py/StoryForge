@@ -15,16 +15,6 @@ export const Publish = () => {
     const handleContentChange = (newContent: string) => {
         setContent(newContent);
     }
-    
-
-    // const config = useMemo(
-    //     {
-    //         readonly: false,
-    //         placeholder: "Start Typing.....",
-    //         enableDragAndDropFileToEditor: true,    
-    //     },
-    //     []
-    // )
 
     const [title, setTitle] = useState("");
     const navigate = useNavigate();
